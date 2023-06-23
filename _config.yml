@@ -35,6 +35,7 @@ github_username:  jekyll
 
 # Build settings
 theme: minima
+  skin: solarized-light
 plugins:
   - jekyll-feed
 
