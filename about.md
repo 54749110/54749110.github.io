@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Xuan
+title: About
 permalink: /about/
 ---
 
