@@ -4,7 +4,13 @@ layout: base
 
 <div class="home">
 
-  <div style="background-image: url('mypicture.jpg');">
+  <style>
+    body {
+        background-image: url("mypicture.jpg"); /* 图片文件名 */
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+</style>
 
   {%- if page.title -%}
     <h1 class="page-heading">{{ page.title }}</h1>
