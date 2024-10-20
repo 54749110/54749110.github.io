@@ -5,7 +5,7 @@ description: 《Statistical Physics of Fields》Mehran Kardar Chapter 4
 pin: true
 math: true
 mermaid: true
-categories: [《Statistical Physics of Fields》Mehran Kardar ,Chapter 4]
+categories: [Kardar,Chapter]
 tags: [Renormalization Group,Gaussian Model,Ising Model]
 author: Xuan
 ---
