@@ -199,3 +199,19 @@ $$
 \end{aligned}
 $$
 
+<img src="https://54749110.github.io/assets/2023-11-06-Introduction-to-single-mode-approxiamation/2.png" width = "290" height = "300" alt="图片名称" align=center />
+<img src="https://54749110.github.io/assets/2023-11-06-Introduction-to-single-mode-approxiamation/1.png" width = "290" height = "300" alt="图片名称" align=center />
+
+
+## REF:
+---
+[1] 《Interacting Electrons and Quantum Magnetism》Assa Auerbach  
+[2] Extended Heisenberg Models of Antiferromagnetism: Analogies to
+the Fractional Quantum Hall EffecT. D.P. Arovas, A. Auerbach, and F.D.M. Haldane, Phys. Rev. Lett. 60, 531 (1988).   
+[3] 《Quantum Field Theory and Condensed Matter》 R.Shankar (Transform Matrix Methods)  
+[4] Exact Questions to Some Interesting Answers In Many Body Physics.D. P. Arovas ,S. M. Girvin Proc. 7th International Conference on Many Body Theories, Minneapolis (1991)   
+[5]Some General Thoughts about Symmetry. Anderson. (a lecture)
+
+
+## [PDF Download](/assets/2023-11-06-Introduction-to-single-mode-approxiamation/2023-11-6-Introduction-to-single-mode-approxiamation.pdf) 
+
