@@ -6,7 +6,7 @@ pin: true
 math: true
 mermaid: true
 categories: [Kardar,Chapter]
-tags: [Renormalization Group,Gaussian Model,Ising Model]
+tags: [Renormalization Group,Gaussian Model]
 author: Xuan
 ---
 
