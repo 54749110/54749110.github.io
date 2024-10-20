@@ -57,8 +57,8 @@ $$
 
 &emsp;&emsp; 现在利用新定义的n,L重新表达哈密顿量：
 
-<img src="https://54749110.github.io/assets/2023-12-04-NLSM-theory/2.jpg" width = "330" height = "465" alt="图片名称" align=center />
-<img src="https://54749110.github.io/assets/2023-12-04-NLSM-theory/3.jpg" width = "320" height = "320" alt="图片名称" align=center />
+<img src="https://54749110.github.io/assets/2023-12-04-NLSM-theory/2.JPG" width = "330" height = "465" alt="图片名称" align=center />
+<img src="https://54749110.github.io/assets/2023-12-04-NLSM-theory/3.JPG" width = "320" height = "320" alt="图片名称" align=center />
 
 
 
@@ -112,7 +112,7 @@ $$
 
 
 
-<img src="https://54749110.github.io/assets/2023-12-04-NLSM-theory/4.jpg" width = "250" height = "330" alt="图片名称" align=center />
+<img src="https://54749110.github.io/assets/2023-12-04-NLSM-theory/4.JPG" width = "250" height = "330" alt="图片名称" align=center />
 
 
 
