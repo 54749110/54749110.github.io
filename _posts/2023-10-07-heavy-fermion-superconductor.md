@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "t-J Model in High-Temperature Superconductor"
-description: 
+description: Small Survey
 pin: true
 math: true
 mermaid: true
@@ -9,10 +9,6 @@ categories: [Small Survey,High-Temperature Superconductor ]
 tags: [Zhang-Rice Singlet,interwined orders]
 author: Xuan
 ---
-
-# <center> t-J Model in High-Temperature Superconductor 
-
-## <center> 宣嘉乐 2023.11.19
 
 ## Abstract
 ---
