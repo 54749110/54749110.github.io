@@ -5,7 +5,7 @@ description: 《Interacting Electrons and Quantum Magnetism》Assa Auerbach Chap
 pin: true
 math: true
 mermaid: true
-categories: [NLSM,Haldane Gap]
+categories: [《Interacting Electrons and Quantum Magnetism》Assa Auerbach ,Chapter 11]
 tags: [NLSM,Haldane Gap]
 author: Xuan
 ---

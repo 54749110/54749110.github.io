@@ -5,7 +5,7 @@ description: 《Interacting Electrons and Quantum Magnetism》Assa Auerbach Chap
 pin: true
 math: true
 mermaid: true
-categories: [LSM theorem,Gapless]
+categories: [《Interacting Electrons and Quantum Magnetism》Assa Auerbach , Chapter 5]
 tags: [LSM theorem,Gapless]
 author: Xuan
 ---

@@ -5,7 +5,7 @@ description: 《Interacting Electrons and Quantum Magnetism》Assa Auerbach Chap
 pin: true
 math: true
 mermaid: true
-categories: [Goldstone Modes,AKLT]
+categories: [《Interacting Electrons and Quantum Magnetism》Assa Auerbach, Chapter 9]
 tags: [Goldstone Modes,AKLT]
 author: Xuan
 ---
