@@ -199,8 +199,8 @@ $$
 \end{aligned}
 $$
 
-<img src="https://54749110.github.io/assets/2023-11-06-Introduction-to single-mode-approxiamation/2.png" width = "290" height = "300" alt="图片名称" align=center />
-<img src="https://54749110.github.io/assets/2023-11-06-Introduction-to single-mode-approxiamation/1.png" width = "290" height = "300" alt="图片名称" align=center />
+<img src="https://54749110.github.io/assets/2023-11-06-Introduction-to-single-mode-approxiamation/2.png" width = "290" height = "300" alt="图片名称" align=center />
+<img src="https://54749110.github.io/assets/2023-11-06-Introduction-to-single-mode-approxiamation/1.png" width = "290" height = "300" alt="图片名称" align=center />
 
 
 ## REF:
