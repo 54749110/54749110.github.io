@@ -249,4 +249,4 @@ Author links open overlay panel, Elliott Lieb, Theodore Schultz, Daniel Mattis, 
 
 
 
-## [PDF Download](/assets/grouppresentation/halfintegerspinchains.pdf) 
+## [PDF Download](/assets/2023-06-27-halfinteger-spinchains/halfintegerspinchains.pdf) 
