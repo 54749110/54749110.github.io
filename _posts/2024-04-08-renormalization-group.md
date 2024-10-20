@@ -14,6 +14,7 @@ author: Xuan
 ## Abstract
 ---
 &emsp;&emsp;如何去寻找相变的临界指数？或许可以直接求解配分函数，但是配分函数包含了统计平衡系统的几乎全部热力学信息，只有少数体系可以严格求解；或许可以采用平均场方法，其一个不足是忽略了涨落，而从第三章讨论朗道金兹堡理论鞍点近似下对于涨落的修正中可以看出，涨落在相变时起到关键的作用。我们或许可以不去求配分函数，而是去寻找保持系统不变的对称变换$R$。在朗道朗道金兹堡理论中，自由能是由一系列参数决定的($\alpha$,$\beta$,$h$,$t$......)，这个变换应当使得满足一些条件的情况下，使得远离相变的参数点不断靠近相变点，直至在无穷步后对参数点做恒等变换。这就是该变换下的不动点，找到该点就找到了相变。这个变换应当是关于空间尺度的变换，因为第三章给出了关于关联长度$\xi$的性质，即在相变时关联长度趋于无穷，如果每次变换空间尺度都改变了b，使得$\xi\rightarrow b\xi$直至不动点上 $\xi=b\xi$这说明$\xi$为零或者无穷，$\xi$无穷即相变，即这种空间尺度变换（重整化）下的不动点确为相变点。
+
 <img src="https://54749110.github.io/assets/2024-04-08-renormalization-group/1.jpg" width = "300" height = "200" alt="图片名称" align=center />
 
 &emsp;&emsp; 4.4节中利用了前三节广义齐次函数的自相似性，论述这种看似粗暴的重整化变换前后不改变物理量的形式；4.5节给出如何去求解这个不动点，这个不动点是否存在的判据；4.6节，4.7节以高斯模型为例，给出严格求解，和重整化求解下的不动点参数。
@@ -37,6 +38,7 @@ $$
 \vec{m_\text {new }}\left(\mathbf{x_\text {new }}\right)=\frac{1}{\zeta b^d} \int_{\text {Cell centered at } b \mathbf{x_\text {new }}} \mathrm{d}^d \mathbf{x}^{\prime} \vec{m}\left(\mathbf{x}^{\prime}\right)
 \tag{4.29}
 $$
+
 <img src="https://54749110.github.io/assets/2024-04-08-renormalization-group/2.jpg" width = "300" height = "200" alt="图片名称" align=center />
 
 &emsp;&emsp;第一步，让它平滑了b倍，第二步，x轴调整让它剧烈了b'倍，第三步调整y轴让它剧烈了$\eta$倍，通过控制($\zeta$,b)保证“剧烈程度”即构型的概率分布不变，即当处于临界条件时，
@@ -312,6 +314,7 @@ $$
 ## Example Ising
 ---
 &emsp;&emsp;1-D Ising 严格求解没有相变，平均场得到在$2J$时发生相变。
+
 <img src="https://54749110.github.io/assets/2024-04-08-renormalization-group/6.jpg" width = "300" height = "200" alt="图片名称" align=center />
 
 &emsp;&emsp;重整化操作就是把2个自旋粗粒化为一个“自旋”，再丢掉所有偶数格点上的自旋，再对配分函数引入参数A使得配分函数不变。无外场下1-D Ising 配分函数为(J=1)：
@@ -350,6 +353,7 @@ $$
 &emsp;&emsp;这就是重整化变换前后参量温度的函数关系，借此便可以找到温度的不动点，只有一个点，零温的时候。温度为0这一点并不是系统的相变点。但却是一维模型中的一个平凡的满足自相似性的点，符合对一维中不存在相变的预期。
 
 &emsp;&emsp;2-D Ising 严格解2.3J，平均场解4J，重整化做如下操作：
+
 <img src="https://54749110.github.io/assets/2024-04-08-renormalization-group/7.jpg" width = "300" height = "200" alt="图片名称" align=center />
 
 &emsp;&emsp;求和掉所有的黑色块，余下白色的块，旋转45度得到自相似的体系，再做rescaling,renormalization等操作。基于原本的哈密顿量配分函数所作重整化得到的形式，同一维类似，也是代入黑色格点的自旋数值，把黑色格点求和求出来，得到余下白色格点的求和：
