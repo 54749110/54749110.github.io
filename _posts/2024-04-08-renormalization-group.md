@@ -14,7 +14,7 @@ author: Xuan
 ## Abstract
 ---
 &emsp;&emsp;如何去寻找相变的临界指数？或许可以直接求解配分函数，但是配分函数包含了统计平衡系统的几乎全部热力学信息，只有少数体系可以严格求解；或许可以采用平均场方法，其一个不足是忽略了涨落，而从第三章讨论朗道金兹堡理论鞍点近似下对于涨落的修正中可以看出，涨落在相变时起到关键的作用。我们或许可以不去求配分函数，而是去寻找保持系统不变的对称变换$R$。在朗道朗道金兹堡理论中，自由能是由一系列参数决定的($\alpha$,$\beta$,$h$,$t$......)，这个变换应当使得满足一些条件的情况下，使得远离相变的参数点不断靠近相变点，直至在无穷步后对参数点做恒等变换。这就是该变换下的不动点，找到该点就找到了相变。这个变换应当是关于空间尺度的变换，因为第三章给出了关于关联长度$\xi$的性质，即在相变时关联长度趋于无穷，如果每次变换空间尺度都改变了b，使得$\xi\rightarrow b\xi$直至不动点上 $\xi=b\xi$这说明$\xi$为零或者无穷，$\xi$无穷即相变，即这种空间尺度变换（重整化）下的不动点确为相变点。
-<div align=center><img src="https://54749110.github.io/assets/2024-04-08-renormalization-group/1.jpg" width = "300" height = "200" alt="图片名称" ></div>
+<img src="https://54749110.github.io/assets/2024-04-08-renormalization-group/1.jpg" width = "300" height = "200" alt="图片名称" align=center />
 
 &emsp;&emsp; 4.4节中利用了前三节广义齐次函数的自相似性，论述这种看似粗暴的重整化变换前后不改变物理量的形式；4.5节给出如何去求解这个不动点，这个不动点是否存在的判据；4.6节，4.7节以高斯模型为例，给出严格求解，和重整化求解下的不动点参数。
 
@@ -37,7 +37,7 @@ $$
 \vec{m_\text {new }}\left(\mathbf{x_\text {new }}\right)=\frac{1}{\zeta b^d} \int_{\text {Cell centered at } b \mathbf{x_\text {new }}} \mathrm{d}^d \mathbf{x}^{\prime} \vec{m}\left(\mathbf{x}^{\prime}\right)
 \tag{4.29}
 $$
-<div align=center><img src="https://54749110.github.io/assets/2024-04-08-renormalization-group/2.jpg" width = "600" height = "450" alt="图片名称" ></div>
+<img src="https://54749110.github.io/assets/2024-04-08-renormalization-group/2.jpg" width = "300" height = "200" alt="图片名称" align=center />
 
 &emsp;&emsp;第一步，让它平滑了b倍，第二步，x轴调整让它剧烈了b'倍，第三步调整y轴让它剧烈了$\eta$倍，通过控制($\zeta$,b)保证“剧烈程度”即构型的概率分布不变，即当处于临界条件时，
 $$
@@ -170,7 +170,7 @@ $$
 
 &emsp;&emsp;其中，g是参数空间中的参量。所以我们可以看出如果本征值大于一，称为关涉本征值，相应本征矢为关涉本征矢，在粗粒化过程中标度场将被不断放大，点也不断远离不动点。如果本征值小于一，称为非关涉本征值，相应本征矢为非关涉本征矢，在粗粒化过程中标度场将被不断缩小，点也不断靠近不动点；如果本征值等于一，称为边缘本征值，相应本征矢为边缘本征矢，它依赖于系统细节。
 
-<div align=center><img src="https://54749110.github.io/assets/2024-04-08-renormalization-group/3.jpg" width = "500" height = "300" alt="图片名称" ></div>
+<img src="https://54749110.github.io/assets/2024-04-08-renormalization-group/3.jpg" width = "300" height = "200" alt="图片名称" align=center />
 
 &emsp;&emsp;如果e1是一个非关涉本征矢的话，沿着e1走，总会收敛到不动点；如果e2是另一个非关涉本征矢的话，沿着e2走，总会收敛到不动点。线性叠加原理告诉我们：从着e1、e2张成的平面上任意一点开始走的话，总会收敛到不动点，称这个平面为(basin of attraction of the fixed point)。如果有一个物理系统已经处在这个平面上的话，不需要对这个系统做任何实验上的改变，我们只是做了数学上的重整化操作，因为这个系统的性质在重整化前后没有任何的改变，而重整化最终得到了在不动点处无穷的关联长度，我们就可以认为物理系统在这个平面上的关联长度都是无穷的，也就是说相变发生在这个平面上。
 &emsp;&emsp;所谓关涉本征矢就是处于这个平面之外的诸多维度，这是我们实验中在调节的东西，比如说改变温度，使得物理系统沿着改变温度所对应参数空间中的某条轨迹最终落到这个平面上，发生相变。铁有它的哈密顿量，它有许多微观自由度；镍有它的哈密顿量，它也有许多微观自由度，这些微观自由度组成了巨大的非关涉本征矢空间，全空间写作:
@@ -212,7 +212,7 @@ $$
 \tag{4.50}
 $$
 
-<div align=center><img src="https://54749110.github.io/assets/2024-04-08-renormalization-group/8.jpg" width = "500" height = "400" alt="图片名称" ></div>
+<img src="https://54749110.github.io/assets/2024-04-08-renormalization-group/8.jpg" width = "300" height = "200" alt="图片名称" align=center />
 
 &emsp;&emsp;最终得到：
 
@@ -221,7 +221,7 @@ Z=\prod_{\mathbf{q}} V^{-n / 2} \int \mathrm{d} \vec{m}(\mathbf{q}) \exp \left[-
 \tag{4.53}
 $$
 
-<div align=center><img src="https://54749110.github.io/assets/2024-04-08-renormalization-group/4.jpg" width = "400" height = "480" alt="图片名称" ></div>
+<img src="https://54749110.github.io/assets/2024-04-08-renormalization-group/4.jpg" width = "300" height = "200" alt="图片名称" align=center />
 
 &emsp;&emsp;自由能为：
 
@@ -238,7 +238,7 @@ $$
 
 &emsp;&emsp;然而书上进一步的变量代换仍然不很直观，不妨先计算热容，是自由能对温度的两阶导数，除去了ln项留下都是指数项，再恢复到自由能中，从而得到标度率。
 
-<div align=center><img src="https://54749110.github.io/assets/2024-04-08-renormalization-group/5.jpg" width = "600" height = "350" alt="图片名称" ></div>
+<img src="https://54749110.github.io/assets/2024-04-08-renormalization-group/5.jpg" width = "300" height = "200" alt="图片名称" align=center />
 
 &emsp;&emsp;从而标度率为：
 
@@ -312,7 +312,7 @@ $$
 ## Example Ising
 ---
 &emsp;&emsp;1-D Ising 严格求解没有相变，平均场得到在$2J$时发生相变。
-<div align=center><img src="https://54749110.github.io/assets/2024-04-08-renormalization-group/6.jpg" width = "500" height = "300" alt="图片名称" ></div>
+<img src="https://54749110.github.io/assets/2024-04-08-renormalization-group/6.jpg" width = "300" height = "200" alt="图片名称" align=center />
 
 &emsp;&emsp;重整化操作就是把2个自旋粗粒化为一个“自旋”，再丢掉所有偶数格点上的自旋，再对配分函数引入参数A使得配分函数不变。无外场下1-D Ising 配分函数为(J=1)：
 
@@ -350,7 +350,7 @@ $$
 &emsp;&emsp;这就是重整化变换前后参量温度的函数关系，借此便可以找到温度的不动点，只有一个点，零温的时候。温度为0这一点并不是系统的相变点。但却是一维模型中的一个平凡的满足自相似性的点，符合对一维中不存在相变的预期。
 
 &emsp;&emsp;2-D Ising 严格解2.3J，平均场解4J，重整化做如下操作：
-<div align=center><img src="https://54749110.github.io/assets/2024-04-08-renormalization-group/7.jpg" width = "500" height = "150" alt="图片名称" ></div>
+<img src="https://54749110.github.io/assets/2024-04-08-renormalization-group/7.jpg" width = "300" height = "200" alt="图片名称" align=center />
 
 &emsp;&emsp;求和掉所有的黑色块，余下白色的块，旋转45度得到自相似的体系，再做rescaling,renormalization等操作。基于原本的哈密顿量配分函数所作重整化得到的形式，同一维类似，也是代入黑色格点的自旋数值，把黑色格点求和求出来，得到余下白色格点的求和：
 
