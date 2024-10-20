@@ -227,7 +227,7 @@ $$
 
 &emsp;&emsp; 对于满足平移对称性，时间反演对称性的链，我们假设它是有带隙的，非简并的。我们取两条带，仍然在i处切断，由于具有平移对称性，这与另一条在i+1处切断没有区别，$L_i=L_{i+1}+J_i=L_{i+1} \rightarrow J_i=0$说明是整数自旋，矛盾。
 
-<img src="https://github.com/54749110/54749110.github.io/assets/2023-06-27-halfinteger-spinchains/7.jpg" width = "600" height = "160" alt="图片名称" align=center />
+<img src="https://github.com/54749110/54749110.github.io/assets/2023-06-27-halfinteger-spinchains/7.JPG" width = "600" height = "160" alt="图片名称" align=center />
 
 
 ## REF  
