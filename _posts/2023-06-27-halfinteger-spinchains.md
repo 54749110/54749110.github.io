@@ -167,7 +167,11 @@ $$
 ---
 &emsp; &emsp; 1962年，Jacques des cloizeaux ang J. J. Pearsont [2] 解析的求解了无穷一维最近邻海森堡模型，能量如下图所示，其包括了一组简并的能带，能带是没有带隙的，而在动量空间k=0与k=$\pi$处，这些激发(magnon excitations)趋于零，具体为(Assa. Chap11)  &emsp;&emsp; $\omega_{\mathbf{k}}=(\pi / 2)|\sin k|$ 
 
+<img src="{{site.url}}assets/grouppresentation/1.png" alt="zigzag" />
+
+<img src="https://54749110.github.io/assets/grouppresentation/1.png" alt="zigzag" />
 ![Desktop View](/assets/grouppresentation/5.png){: width="700" height="400" }
+![Desktop View](../assets/grouppresentation/5.png){: width="70" height="40" }
 <img src="/assets/grouppresentation/5.png" width = "290" height = "170" alt="图片名称" align=center />
 <img src="/assets/grouppresentation/6.png" width = "290" height = "170" alt="图片名称" align=center />
 
