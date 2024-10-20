@@ -155,20 +155,20 @@ $$
 &emsp;&emsp; 基态是可以求解的，如下左图所示，称这样的两两组合的基态为“dimer configuration"，其中每一个“dimer configuration” 的态为自旋单态.
 
 
-<img src="https://github.com/54749110/54749110.github.io/assets/2023-06-27-halfinteger-spinchains/1.png" width = "290" height = "80" alt="图片名称" align=center />
-<img src="https://github.com/54749110/54749110.github.io/assets/2023-06-27-halfinteger-spinchains/2.png" width = "290" height = "80" alt="图片名称" align=center />
+<img src="https://54749110.github.io/assets/2023-06-27-halfinteger-spinchains/1.png" width = "290" height = "80" alt="图片名称" align=center />
+<img src="https://54749110.github.io/assets/2023-06-27-halfinteger-spinchains/2.png" width = "290" height = "80" alt="图片名称" align=center />
 
 &emsp;&emsp; 下面两张图是四粒子的能量随$\alpha$的变化图，以及N较大时的上下两带能量，当粒子数趋于无穷时，带隙合拢，而此时基态每个自旋的能量为($\alpha=1/2$)&emsp; $-3/4 J$。
 
-<img src="https://github.com/54749110/54749110.github.io/assets/2023-06-27-halfinteger-spinchains/3.png" width = "290" height = "200" alt="图片名称" align=center />
-<img src="https://github.com/54749110/54749110.github.io/assets/2023-06-27-halfinteger-spinchains/4.png" width = "290" height = "170" alt="图片名称" align=center />
+<img src="https://54749110.github.io/assets/2023-06-27-halfinteger-spinchains/3.png" width = "290" height = "200" alt="图片名称" align=center />
+<img src="https://54749110.github.io/assets/2023-06-27-halfinteger-spinchains/4.png" width = "290" height = "170" alt="图片名称" align=center />
 
 ## Magnon Excitations
 ---
 &emsp; &emsp; 1962年，Jacques des cloizeaux ang J. J. Pearsont [2] 解析的求解了无穷一维最近邻海森堡模型，能量如下图所示，其包括了一组简并的能带，能带是没有带隙的，而在动量空间k=0与k=$\pi$处，这些激发(magnon excitations)趋于零，具体为(Assa. Chap11)  &emsp;&emsp; $\omega_{\mathbf{k}}=(\pi / 2)|\sin k|$ 
 
-<img src="https://github.com/54749110/54749110.github.io/assets/2023-06-27-halfinteger-spinchains/5.png" width = "290" height = "170" alt="图片名称" align=center />
-<img src="https://github.com/54749110/54749110.github.io/assets/2023-06-27-halfinteger-spinchains/6.png" width = "290" height = "170" alt="图片名称" align=center />
+<img src="https://54749110.github.io/assets/2023-06-27-halfinteger-spinchains/5.png" width = "290" height = "170" alt="图片名称" align=center />
+<img src="https://54749110.github.io/assets/2023-06-27-halfinteger-spinchains/6.png" width = "290" height = "170" alt="图片名称" align=center />
 
 &emsp;&emsp; 我们不太严谨的利用一种半经典手段来说明这件事：一个粒子自旋的改变事实上是与周围最近邻粒子自旋的交换作用，如果我们把自旋视作一个随时间连续变化的量，并且大部分自旋是沿着z轴的，那么它应当具有“运动方程”，“Equations of motion"，对于p位的格点，粒子自旋(角动量)的变化来自于磁力矩，磁矩正比与该格点的自旋量子数，”磁场“来源于最近邻格点的自旋：
 
@@ -227,7 +227,7 @@ $$
 
 &emsp;&emsp; 对于满足平移对称性，时间反演对称性的链，我们假设它是有带隙的，非简并的。我们取两条带，仍然在i处切断，由于具有平移对称性，这与另一条在i+1处切断没有区别，$L_i=L_{i+1}+J_i=L_{i+1} \rightarrow J_i=0$说明是整数自旋，矛盾。
 
-<img src="https://github.com/54749110/54749110.github.io/assets/2023-06-27-halfinteger-spinchains/7.JPG" width = "600" height = "160" alt="图片名称" align=center />
+<img src="https://54749110.github.io/assets/2023-06-27-halfinteger-spinchains/7.JPG" width = "600" height = "160" alt="图片名称" align=center />
 
 
 ## REF  
