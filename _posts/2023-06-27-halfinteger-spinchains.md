@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Half-Odd Integer Spin Chains"
-description: 《Intercting Electrons and magentism》 Chapter 5
+description: 《Interacting Electrons and Quantum Magnetism》Assa Auerbach Chapter 5
 pin: true
 math: true
 mermaid: true
