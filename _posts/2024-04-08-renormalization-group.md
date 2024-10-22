@@ -6,7 +6,7 @@ pin: true
 math: true
 mermaid: true
 categories: [《Statistical Physics of Fields》Mehran Kardar , Chapter 4]
-tags: [Renormalization Group,Gaussian Model,Ising Model]
+tags: [Renormalization Group,Gaussian Model,Ising Model, Laudau-Ginzburg theory]
 author: Xuan
 ---
 
