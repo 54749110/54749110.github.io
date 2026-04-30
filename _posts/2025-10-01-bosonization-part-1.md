@@ -1,22 +1,19 @@
 ﻿---
 layout: post
-title: "Bosonization part 1"
+title:  "Bosonization part 1"
 description: "Introduction to Luttinger Liquid"
 pin: true
 math: true
 mermaid: true
-categories:
-  - "Bosonization"
-  - "Luttinger Liquid"
-tags:
-  - "Bosonization"
-  - "Luttinger Liquid"
-author: "Xuan"
+categories: [Bosonization, Luttinger Liquid]
+tags: [Bosonization, Luttinger Liquid]
+author: Xuan
 ---
 
 &emsp;&emsp;这次读书会时我想说明这样一个技术：利用玻色化方法可以处理一维费米子相互作用体系，著名的就是Luttinger 液体 。 我们会看到费米子模型变成了连续玻色场体系。后面的读书会上会看到重整化流的参数就包含在这个玻色场中，从而可以分析相。比如Hubbard-Kitaev模型有几篇文章就是这么做的。这个技术相当复杂，这次玻色化的部分也有许多深刻的地方我也许理解不对。
 
-REF
+## REF
+---
 [1]《Many-Body Theory in Condensed Matter Physics—— An Introduction》Henrik Bruus and Karsten Flensberg   
 [2] R. Shankar, Quantum Field Theory and Condensed Matter—An
  Introduction (Cambridge University Press, Cambridge, 2017).  
@@ -24,6 +21,7 @@ REF
 [4]Armin Rahmani1, Xiaoyu Zhu1,2, Marcel Franz1, and Ian Affleck,Phase diagram of the interacting Majorana chain model.Phys. Rev. B 92, 235123(2015)
 
 ## Luttinger Liquid
+---
 &emsp;&emsp;Luttinger 液体是非费米液体，是玻色化方法应用的典型例子。我们可以先采用费米液体理论处理一维相互作用电子气模型，来看看其缺陷在哪里。我们要找寻电子如果可以被准粒子表述，那就会有准粒子激发谱。得到激发谱需要两个公式，第一个是介电常数的dielectric function. (Bruus, Chap6.4)
 
 &emsp;&emsp;dielectric function 的经典表示就是 $\epsilon = 1- V_q  \rho_{ind} /  \phi_{total}$ ，或$\epsilon \cdot \phi_{total}=\phi_{ext}$。介电常数的定义就是外场所能激发的总电荷，在线性相应理论中写作：
@@ -80,6 +78,7 @@ $$
 
 
 ## Bosonization of Luttinger Liquid
+---
 &emsp;&emsp;想要把相互作用费米子系统变为玻色系统，可以从二次量子化哈密顿量出发，一维相互作用电子气在动量空间的哈密顿量为：
 
 
@@ -191,6 +190,7 @@ $$
 
 
 ## Fermonic Field in Representation of  Bosonic Field
+---
 &emsp;&emsp;上面的过程只是把哈密顿量用它的密度算符来表示，就算做玻色化了。更一般的，能否把一个费米子场，在一维，低能的条件的情况下表示为玻色子场的形式？我们知道，费米子场满足以下两个规律。第一反对易关系，第二与密度算符的对易关系，第二个式子确保了$\psi_{r}^{\dagger}(x)$的物理定义：在位置x增加了一个费米子，从而改变了该点的密度。
 
 $$
