@@ -12,4 +12,4 @@ author: Xuan
 
 
 
-## [PDF Download](/assets/notes/DMRG-liebkitaev-model.pdf)
+## [PDF Download](/assets/notes/majorana.pdf)
