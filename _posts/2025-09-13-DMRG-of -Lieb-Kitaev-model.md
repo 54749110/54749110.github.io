@@ -5,7 +5,7 @@ description: "Refer to the post titled quantum geometry. It is the numerical tri
 pin: true
 math: true
 mermaid: true
-categories: [Numerical, DMRG]
+categories: [Numerical method, DMRG]
 tags: [majorana, kitaev chain, flat band]
 author: Xuan
 ---
