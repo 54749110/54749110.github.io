@@ -5,7 +5,7 @@ description: "Visit to Hong Kong gives inspiration on flat band kondo problem. H
 pin: true
 math: true
 mermaid: true
-categories: [flat band superconudctivity, flat band kondo]
+categories: [flat band superconductivity, flat band kondo]
 tags: [flat band, kondo]
 author: Xuan
 ---
