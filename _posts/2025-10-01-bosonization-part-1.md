@@ -14,14 +14,16 @@ author: Xuan
 
 ## REF
 ---
-[1]《Many-Body Theory in Condensed Matter Physics—— An Introduction》Henrik Bruus and Karsten Flensberg   
+
+[1]《Many-Body Theory in Condensed Matter Physics—— An Introduction》Henrik Bruus and Karsten Flensberg
 [2] R. Shankar, Quantum Field Theory and Condensed Matter—An
- Introduction (Cambridge University Press, Cambridge, 2017).  
-[3]I.Mahyaeh and E.Ardonne, study of the phase diagram of the Kitaev-Hubbard chian , phys.rev.B,101,085125(2020)  
+ Introduction (Cambridge University Press, Cambridge, 2017).
+[3]I.Mahyaeh and E.Ardonne, study of the phase diagram of the Kitaev-Hubbard chian , phys.rev.B,101,085125(2020)
 [4]Armin Rahmani1, Xiaoyu Zhu1,2, Marcel Franz1, and Ian Affleck,Phase diagram of the interacting Majorana chain model.Phys. Rev. B 92, 235123(2015)
 
 ## Luttinger Liquid
 ---
+
 &emsp;&emsp;Luttinger 液体是非费米液体，是玻色化方法应用的典型例子。我们可以先采用费米液体理论处理一维相互作用电子气模型，来看看其缺陷在哪里。我们要找寻电子如果可以被准粒子表述，那就会有准粒子激发谱。得到激发谱需要两个公式，第一个是介电常数的dielectric function. (Bruus, Chap6.4)
 
 &emsp;&emsp;dielectric function 的经典表示就是 $\epsilon = 1- V_q  \rho_{ind} /  \phi_{total}$ ，或$\epsilon \cdot \phi_{total}=\phi_{ext}$。介电常数的定义就是外场所能激发的总电荷，在线性相应理论中写作：
@@ -38,7 +40,6 @@ $$
 \tag{2}
 $$
 
-
 &emsp;&emsp;其中$\varepsilon(q, \omega)$的不同数值代表了准粒子激发的不同模式，比如$\varepsilon(q, \omega)=0$的准粒子在无外场下仍可以形成内部的电荷密度分布$\rho_q$,这也是我们需要的，通过(1)式中左边为零，最终可以解出$\omega = \omega(q)$的准粒子激发谱。
 
 &emsp;&emsp;另外一个公式就是极化率的形式，极化率的虚部代表了准粒子的寿命，虚部非零，准粒子才得以激发,这由Lindhard formula给出：
@@ -48,9 +49,7 @@ $$
 \tag{3}
 $$
 
-
 &emsp;&emsp;一维和三维的区别一是在于$V(q)$的形式，需要对实空间的库伦作用做一维和三维的傅里叶变换产生了差异，其中$a$是为了避免一维傅里叶变换发散做的截断。更重要的是在于对k的求和会变为对于$dk$的一维或三维积分，下面是它们的差异：
-
 
 $$
 \omega_{1D} = q \sqrt{\frac{4 e_0^2}{\pi v_{\mathrm{F}}} \ln \left(\frac{1}{q a}\right)}
@@ -76,11 +75,10 @@ $$
 
 &emsp;&emsp;三维时：$\tau^{-1} \sim T^2$ 。在相空间中只有费米能级附近一个尺度下的电子能参与散射，而零温下不存在这个尺度，不会散射，零温时准粒子寿命无穷，费米液体理论适用。一维时$\tau^{-1} =const$ ,这表明即使是零温下也存在一些散射机制要干掉准粒子，比如说集体激发的关联。
 
-
 ## Bosonization of Luttinger Liquid
 ---
-&emsp;&emsp;想要把相互作用费米子系统变为玻色系统，可以从二次量子化哈密顿量出发，一维相互作用电子气在动量空间的哈密顿量为：
 
+&emsp;&emsp;想要把相互作用费米子系统变为玻色系统，可以从二次量子化哈密顿量出发，一维相互作用电子气在动量空间的哈密顿量为：
 
 $$
 \begin{aligned}
@@ -99,7 +97,6 @@ $$
 $$
 c_k=c_{k R} \Theta(k)+c_{k L} \Theta(-k)
 $$
-
 
 &emsp;&emsp; 定义左移和右移的密度算符为：
 
@@ -137,14 +134,12 @@ $$
 
 &emsp;&emsp;它使得无相互作用哈密顿量满足对易关系：$\left[H_0, \rho_L(q)\right] \approx q v_F \rho_L(q)$。要注意这就是一个类似海森堡运动学方程的形式，实际上玻色化是基于运动方程类比地构造出来的。公式（8）中的玻色哈密顿量确实验证是满足这个对易关系的，它并非唯一选择。所谓的理论等价，只是指运动方程等价。也就是说常数可以任意选取，这里的常数特意选取了
 
-
 $$
 C\left(N_L, N_R\right) =\frac{\pi v_F}{2 L}\left(\hat{N}^2+\hat{J}^2\right)
 \tag{10}
 $$
 
 &emsp;&emsp;其中$N=N_L+N_R$,  $J=N_L-N_R$,这一项在海森堡对易关系里是零。我们知道在费米子体系里面$q=0$描述了一个电荷密度均匀分布的状态，$q \neq 0$是一个涨落，体现在$\rho(q)$上面。$q=0$的部分也必须包含进去，这是玻色化之后所没有的项，就是所谓的化学势，体现的是总粒子数。把费米部分的化学势摘出来，固定总粒子数下它就是一个常数，加到玻色系统里作为基底能量，就是公式10的常数。最终可以看到玻色表象$\rho_{Rq},\rho_{Lq}$下面是可对角化的形式，在该表象下的本征能量也可以解出了。
-
 
 &emsp;&emsp;接下来尝试把这个哈密顿量连续化，我们处理的是费米面附近的低能激发，实际上连续化需要一个缓变的场，而晶格场又是剧变的，两者在低能等效中可以共存（姚老师暑校的说法）：
 
@@ -158,7 +153,6 @@ c_j= & \int_{2 \Lambda} d k c_k e^{i x} (在费米面附近2 \Lambda小区间积
 $$
 
 &emsp;&emsp;剧变来源于$e^{ik_Fx}$，导致了$c_j$的剧变，场$\psi_{L}(x)$是缓变的，因此虽然$x=ja$是离散变量可以连续处理。因此直接对密度算符做傅里叶连续化，$\rho_L(q) \rightarrow \rho_L(x)$ ：
-
 
 $$
 \begin{gathered}
@@ -188,9 +182,9 @@ g^{-1}=\sqrt{1+\frac{V(0)-V(2k_F)}{\pi v_{\mathrm{F}}}}, \quad \tilde{v}=\frac{1
 \tag{13}
 $$
 
-
 ## Fermonic Field in Representation of  Bosonic Field
 ---
+
 &emsp;&emsp;上面的过程只是把哈密顿量用它的密度算符来表示，就算做玻色化了。更一般的，能否把一个费米子场，在一维，低能的条件的情况下表示为玻色子场的形式？我们知道，费米子场满足以下两个规律。第一反对易关系，第二与密度算符的对易关系，第二个式子确保了$\psi_{r}^{\dagger}(x)$的物理定义：在位置x增加了一个费米子，从而改变了该点的密度。
 
 $$
@@ -231,7 +225,6 @@ $$
 \end{aligned}
 $$
 
-
 &emsp;&emsp;利用$e^Ae^B=e^{A+B}e^{1/2AB-BA}$, $\left[\phi(x), \partial_y \theta(y)\right]=i \pi \delta(x-y)$
 
 $$
@@ -240,7 +233,6 @@ $$
 = &\frac{1}{2 \pi a} e^{i \sqrt{4 \pi}\left[\phi_{+}(x+\epsilon)-\phi_{+}(x)\right]} e^{-i \pi \cdot \operatorname{sgn}(\epsilon) / 2}
 \end{aligned}
 $$
-
 
 &emsp;&emsp; 逐阶展开，直到$\epsilon$一阶项，得到：
 
@@ -260,7 +252,6 @@ $$
 \end{aligned}
 $$
 
-
 &emsp;&emsp;其中：
 
 $$
@@ -273,9 +264,7 @@ $$
 H_F \rightarrow \frac{1}{2} \int\left[\left(\partial_x \phi\right)^2+\Pi^2\right] d x=H_B
 $$
 
-
 &emsp;&emsp; 为了下面的一系列推导。不加证明的写出下面四个恒等式：
-
 
 $$
 \begin{aligned}
@@ -294,7 +283,6 @@ $$
 \end{aligned}
 \tag{19}
 $$
-
 
 $$
 \left[\frac{-1}{\pi \alpha} \cos \sqrt{4 \pi} \phi\right]^2=-\frac{1}{\pi}\left(\frac{\partial \phi}{\partial x}\right)^2+\frac{1}{2 \pi^2 \alpha^2} \cos \sqrt{16 \pi} \phi
@@ -317,7 +305,6 @@ $$
 
 &emsp;&emsp; 这都可以由上面四个恒等式得到，最后得到：
 
-
 $$
 V= U \int d x\frac{2\partial_x \phi^2}{\pi}
 $$
@@ -332,5 +319,3 @@ $$
 &emsp;&emsp; 这就是之前通过二次量子化得到的玻色化哈密顿量形式。
 
 ## [PDF Download](/assets/2025-10-01-bosonization-part-1/bosonization.pdf)
-
-
